@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import {Canvas} from './Canvas';
+import { Canvas } from './canvas/Canvas';
+import {Setup} from "./setup/Setup";
 
 function App() {
   return (
     <div className="App">
-      <h1>Sinus Duktus</h1>
       <Canvas></Canvas>
+      <Setup></Setup>
     </div>
   );
 }

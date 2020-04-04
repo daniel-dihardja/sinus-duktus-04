@@ -1,0 +1,6 @@
+.slider {
+    height: 20px;
+    border: 1px solid;
+    padding: 8px;
+    display: flex;
+}
