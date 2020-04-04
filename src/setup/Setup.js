@@ -1,6 +1,6 @@
 import React from 'react';
 import './Setup.css';
-import {Slider} from "../Slider/Slider";
+import {Slider} from "../slider/Slider";
 
 export class Setup extends React.Component {
 
