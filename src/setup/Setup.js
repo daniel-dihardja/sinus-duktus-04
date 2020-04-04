@@ -11,7 +11,9 @@ export class Setup extends React.Component {
 
   render() {
     return <div className="setup">
-      <Slider label={"Wx"} min={0} max={100}></Slider>
+      <Slider label={"Wx"} min={0} max={10} value={5}></Slider>
+      <Slider label={"Wy"} min={0} max={100}></Slider>
+      <Slider label={"Wy"} min={0} max={100}></Slider>
       <Slider label={"Wy"} min={0} max={100}></Slider>
     </div>
   }
